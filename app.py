@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import threading
 import logging
-from common import *
+from ryb import *
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
